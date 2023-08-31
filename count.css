@@ -1,0 +1,79 @@
+img{
+    height:100vh;
+    width:100vw;
+    filter:blur(15px);
+}
+
+.container{
+    position:relative;
+}
+
+.cardinside{
+    position: absolute;
+    top:20%;
+    left: 25%; 
+    color:white;
+    text-align: center;
+}
+
+button {
+    display: block;
+    border:1px solid white;
+    padding:10px 20px 10px 20px;
+    margin:40px;
+    background-color: rgb(22, 82, 125);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgb(191, 186, 238);
+    
+}
+button:hover{
+    background-color: rgb(154, 188, 222);
+    color:black;
+}
+
+h2{
+    /* border:2px solid red; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+h1{
+    /* border:2px solid yellow; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.btn{
+    display:flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+    button {
+        padding: 5px 10px 5px 10px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    button {
+        font-size: 40px;
+    }
+}
+ 
